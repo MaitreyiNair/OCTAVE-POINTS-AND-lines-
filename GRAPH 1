@@ -1,0 +1,12 @@
+>>  x = [4.699, 3.327, 2.362, 1.651, 1.168, 0.833, 0.589, 0.417, 0.208, 0];
+>>  y = [0, 0.025, 0.15, 0.47, 0.73, 0.885, 0.94, 0.96, 0.98, 1];
+>>  plot(x, y, 'or', 'Markersize', 12)
+>>  plot(x, y, 'o-r')
+>>  title( 'Plot Dp Vs Cumulative Feed' )
+>>  set(gca, 'fontsize', 24)
+>>  xlabel( "Dp(in mm)" )
+>>  ylabel( "Cumulative FEED (Xf)" )
+>>  hold on
+>> Y1 = 0:0.1:2;
+>> X1 = 1.4095 * ones(size(Y1));
+>> plot(X1,Y1);
